@@ -16,7 +16,8 @@ import {
   Minimize2,
   Keyboard,
   Linkedin,
-  Facebook
+  Facebook,
+  Globe
 } from 'lucide-react';
 
 // Animation variants
@@ -148,7 +149,7 @@ export default function VaxEvidencePitch() {
             <p className="text-xl italic leading-relaxed relative z-10">
               &ldquo;I spent 4 years at Pfizer doing this manually. Every vaccine effectiveness study was a 6-month marathon.&rdquo;
             </p>
-            <p className="text-right mt-2 text-gray-400 text-base">— Dr. Myint Tin Tin Htar, Co-Founder</p>
+            <p className="text-right mt-2 text-gray-400 text-base">— Dr. Tin Tin Htar Myint, Co-Founder</p>
           </motion.div>
         </motion.div>
       )
@@ -438,7 +439,7 @@ export default function VaxEvidencePitch() {
             variants={fadeInUp}
           >
             <p className="text-base text-gray-800">
-              <span className="font-bold text-amber-700">Key Advantage:</span> Dr. Myint&apos;s 15-year network provides direct access to decision-makers at Pfizer, Sanofi, ECDC, and academic institutions.
+              <span className="font-bold text-amber-700">Key Advantage:</span> Dr. Tin Tin&apos;s 15-year network provides direct access to decision-makers at Pfizer, Sanofi, ECDC, and academic institutions.
             </p>
           </motion.div>
         </motion.div>
@@ -461,7 +462,7 @@ export default function VaxEvidencePitch() {
           </motion.div>
 
           <motion.div className="grid grid-cols-2 gap-6 flex-1" variants={staggerContainer}>
-            {/* Dr. Myint */}
+            {/* Dr. Tin Tin */}
             <motion.div 
               className="bg-white rounded-2xl p-5 border-2 border-blue-200 shadow-xl flex flex-col"
               variants={fadeInUp}
@@ -470,7 +471,7 @@ export default function VaxEvidencePitch() {
               <div className="w-20 h-20 rounded-full overflow-hidden mx-auto mb-3 ring-4 ring-blue-500 ring-offset-2">
                 <Image 
                   src="/images/dr-myint.jpeg" 
-                  alt="Dr. Myint Tin Tin Htar"
+                  alt="Dr.Tin Tin Htar Myint"
                   width={80}
                   height={80}
                   className="w-full h-full object-cover"
@@ -550,6 +551,15 @@ export default function VaxEvidencePitch() {
                 >
                   <Facebook className="w-4 h-4 text-purple-700" />
                 </a>
+                <a 
+                  href="https://soneeee22000.github.io/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="p-2 bg-purple-100 hover:bg-purple-200 rounded-full transition-colors"
+                  title="Portfolio"
+                >
+                  <Globe className="w-4 h-4 text-purple-700" />
+                </a>
               </div>
               <ul className="space-y-1.5 text-sm text-gray-700 flex-1">
                 {[
@@ -575,7 +585,7 @@ export default function VaxEvidencePitch() {
             <h4 className="text-lg font-bold mb-3 text-center">Why This Team Wins</h4>
             <div className="grid grid-cols-3 gap-4 text-center">
               {[
-                { emoji: "🎯", title: "Domain Expertise", desc: "Dr. Myint lived the problem for 15 years at Pfizer", color: "emerald" },
+                { emoji: "🎯", title: "Domain Expertise", desc: "Dr. Tin Tin lived the problem for 15 years at Pfizer", color: "emerald" },
                 { emoji: "⚡", title: "Technical Execution", desc: "Full-stack AI to build and iterate fast", color: "blue" },
                 { emoji: "🤝", title: "Network Access", desc: "500+ warm leads to pharma decision-makers", color: "purple" },
               ].map((item, i) => (
