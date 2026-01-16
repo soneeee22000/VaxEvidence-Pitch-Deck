@@ -14,7 +14,9 @@ import {
   Database,
   Maximize2,
   Minimize2,
-  Keyboard
+  Keyboard,
+  Linkedin,
+  Facebook
 } from 'lucide-react';
 
 // Animation variants
@@ -475,7 +477,27 @@ export default function VaxEvidencePitch() {
                 />
               </div>
               <h3 className="text-xl font-bold mb-1 text-center">Dr. Tin Tin Htar Myint</h3>
-              <div className="text-blue-600 font-semibold mb-3 text-base text-center">Co-Founder & CMO</div>
+              <div className="text-blue-600 font-semibold mb-2 text-base text-center">Co-Founder & CMO</div>
+              <div className="flex justify-center gap-3 mb-3">
+                <a 
+                  href="https://www.linkedin.com/in/myint-tin-tin-htar/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="p-2 bg-blue-100 hover:bg-blue-200 rounded-full transition-colors"
+                  title="LinkedIn"
+                >
+                  <Linkedin className="w-4 h-4 text-blue-700" />
+                </a>
+                <a 
+                  href="https://www.facebook.com/tin.h.myint" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="p-2 bg-blue-100 hover:bg-blue-200 rounded-full transition-colors"
+                  title="Facebook"
+                >
+                  <Facebook className="w-4 h-4 text-blue-700" />
+                </a>
+              </div>
               <ul className="space-y-1.5 text-sm text-gray-700 flex-1">
                 {[
                   { text: "13 years at Pfizer (Global Epi Lead)", bold: true },
@@ -508,7 +530,27 @@ export default function VaxEvidencePitch() {
                 />
               </div>
               <h3 className="text-xl font-bold mb-1 text-center">Pyae Sone Kyaw</h3>
-              <div className="text-purple-600 font-semibold mb-3 text-base text-center">Co-Founder & CTO</div>
+              <div className="text-purple-600 font-semibold mb-2 text-base text-center">Co-Founder & CTO</div>
+              <div className="flex justify-center gap-3 mb-3">
+                <a 
+                  href="https://www.linkedin.com/in/pyae-sone-kyaw-80386721b/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="p-2 bg-purple-100 hover:bg-purple-200 rounded-full transition-colors"
+                  title="LinkedIn"
+                >
+                  <Linkedin className="w-4 h-4 text-purple-700" />
+                </a>
+                <a 
+                  href="https://www.facebook.com/pyae.s.kyaw.9279807" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="p-2 bg-purple-100 hover:bg-purple-200 rounded-full transition-colors"
+                  title="Facebook"
+                >
+                  <Facebook className="w-4 h-4 text-purple-700" />
+                </a>
+              </div>
               <ul className="space-y-1.5 text-sm text-gray-700 flex-1">
                 {[
                   { text: "Data Science & AI expertise", bold: true },
