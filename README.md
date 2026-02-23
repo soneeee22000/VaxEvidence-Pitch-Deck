@@ -49,6 +49,8 @@ Click the dot indicators at the bottom to jump to any slide.
 10. Roadmap
 11. The Ask
 
+For detailed slide content (data points, messaging, tables), see [docs/PITCH-CONTENT.md](docs/PITCH-CONTENT.md).
+
 ## Project Structure
 
 ```
