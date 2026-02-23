@@ -176,8 +176,9 @@ export default function VaxEvidencePitch() {
             variants={fadeIn}
           >
             <p className="text-lg italic leading-relaxed">
-              &ldquo;I spent 4 years at Pfizer doing this manually. Every
-              vaccine effectiveness study was a 6-month marathon.&rdquo;
+              &ldquo;After 13 years leading vaccine RWE at Pfizer, I can tell
+              you — every effectiveness study is still a 6-month marathon of
+              manual work.&rdquo;
             </p>
             <p className="text-right mt-2 text-slate-400 text-sm">
               — Dr. Tin Tin Htar Myint, Co-Founder &amp; CEO
@@ -282,7 +283,7 @@ export default function VaxEvidencePitch() {
               AI-Powered Vaccine RWE Platform
             </h3>
             <p className="text-base text-slate-400">
-              End-to-end vaccine RWE workflow with regulatory-ready exports
+              End-to-end vaccine RWE workflow with regulatory export templates
             </p>
           </motion.div>
 
@@ -294,7 +295,7 @@ export default function VaxEvidencePitch() {
               {
                 icon: FileText,
                 title: "Protocol Builder",
-                desc: "PICO-based protocol design with versioning, diff viewer, digital signatures, and 21 CFR Part 11 audit trail",
+                desc: "PICO-based protocol design with versioning, side-by-side diff viewer, digital signatures, and immutable audit trail",
               },
               {
                 icon: Target,
@@ -304,7 +305,7 @@ export default function VaxEvidencePitch() {
               {
                 icon: Shield,
                 title: "Regulatory Export",
-                desc: "One-click FDA IND (21 CFR 312.23), eCTD Module 5 (ICH M4E(R2)), CDISC/SDTM templates, CONSORT/STROBE/GCP checklists",
+                desc: "FDA IND templates (21 CFR 312.23), eCTD Module 5 (ICH M4E(R2)), CDISC/SDTM datasets, CONSORT/STROBE/GCP compliance checklists",
               },
               {
                 icon: Users,
@@ -347,11 +348,9 @@ export default function VaxEvidencePitch() {
             className="bg-slate-900 text-white rounded-2xl p-5 text-center mb-4"
             variants={fadeIn}
           >
-            <h3 className="text-3xl font-bold mb-1">
-              Production-Ready Platform
-            </h3>
+            <h3 className="text-3xl font-bold mb-1">Fully Built Platform</h3>
             <p className="text-base text-slate-400">
-              Not a prototype — a fully engineered, tested, and deployed system
+              12 phases engineered, tested, and deployed — ready for pilot users
             </p>
           </motion.div>
 
@@ -415,7 +414,7 @@ export default function VaxEvidencePitch() {
               {
                 icon: Shield,
                 title: "Regulatory Compliance",
-                desc: "FDA IND packages, eCTD Module 5, CDISC/SDTM templates, CONSORT/STROBE/GCP checklists",
+                desc: "FDA IND and eCTD export templates, CDISC/SDTM datasets, CONSORT/STROBE/GCP compliance checklists",
               },
               {
                 icon: Users,
@@ -504,7 +503,7 @@ export default function VaxEvidencePitch() {
                 {[
                   "Purpose-built for vaccines",
                   "Full PICO protocol builder",
-                  "FDA IND + eCTD + SDTM export",
+                  "Regulatory export templates (IND, eCTD, SDTM)",
                   "PRISMA screening + meta-analysis",
                   "Real-time team collaboration",
                 ].map((item, i) => (
@@ -743,7 +742,7 @@ export default function VaxEvidencePitch() {
         >
           <motion.div className="text-center mb-3" variants={fadeIn}>
             <h3 className="text-3xl font-bold text-slate-900">
-              Perfect Founder-Market Fit
+              Strong Founder-Market Fit
             </h3>
             <p className="text-base text-slate-500 mt-1">
               15 years domain expertise meets full-stack AI capabilities
@@ -906,7 +905,7 @@ export default function VaxEvidencePitch() {
               {[
                 {
                   title: "Domain Expertise",
-                  desc: "Dr. Tin Tin lived the problem for 15 years at Pfizer",
+                  desc: "Dr. Tin Tin lived the problem for 15 years in vaccine RWE",
                 },
                 {
                   title: "Technical Execution",
